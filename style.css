@@ -1,0 +1,127 @@
+body.principal{
+    background-color: #EBFCF4;
+}
+.background-bizard
+{
+    
+    background-image: url(img/1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .background-bizard img{
+      position: relative;
+      z-index: -1;
+  }
+
+nav div a {
+    font-family: 'Athiti', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 24px;
+    color: #0B4654;
+}
+nav ul a{
+    font-family:'Inter', sans-serif;
+    color: #0B4654;
+}
+nav div a:hover{
+    text-decoration: none;
+    color:#0B4654;
+}
+.collapse ul li a:hover{
+    text-decoration: underline;
+}
+.collapse ul{
+    background-color:#07B464;
+}
+.collapse ul li a{
+    font-family: 'Inter', sans-serif;;
+    font-style:normal;
+    font-size:24px;
+    color:#FFFF;
+}
+h1, h2{
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px ;
+    color: #1c1e52;
+}
+h1 span{
+    color:#07B464 ;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.btn-success{
+    background-color: linear-gradient(180deg, #34E06F 0%, #07B464 100%) !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 2px 4px rgba(255, 255, 255, 0.25), inset 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #FFF;
+    font-family:'Inter', sans-serif ;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    border:none;
+}
+
+
+form{
+    background-color: #EBFCF4;
+    border-radius: 5%;
+}
+form label{
+    font-family:'Inter', sans-serif ;
+    color:#0B4654;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button span{
+    line-height: 25px;
+}
+
+@media screen and (max-width: 768px) { 
+    body.principal{
+        height: 100%;
+        background: url("/img/background-yoga.svg")no-repeat;
+        background-position: bottom;
+        background-color: #EBFCF4;
+    }
+    .backgroundFiletGauche{
+        background: url("/img/background\ filet\ gauche.svg")no-repeat;
+        background-position-y: 100%;
+        background-size: contain;
+    }
+    .backgroundFiletDroit{
+        background: url("/img/background\ filet\ doite.svg") no-repeat;
+        background-position:100% 5%;
+    }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 992px) { 
+    .image {
+        background-image:  url(/img/img-desktop.svg);
+        background-size: 100%, contain;
+        background-position-y: 150%, center !;
+        padding-top: 30% !important;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+      }
+
+
+}
+
+@media screen and (min-width: 768px) { 
+    h1{
+        font-size: 5vw;
+        line-height:5vw;
+    }
+
+
+}

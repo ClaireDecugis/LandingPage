@@ -16,10 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    <title>Bellefit</title>
 </head>
-
-<body class="principal">
+<body class="h-100">
     <div class=" h-100 backgroundFiletGauche">
         <div class="backgroundFiletDroit">
             <header>
@@ -29,13 +27,13 @@
                             <img class="" src="/img/logo_bellefit.svg" alt="Logo Bellefit">
                             <a class="ml-2 p-2" href="/index.html">Bellefit</a>
                         </div>
-                        <ul class="d-md-flex d-none flex-row justify-content-around flex-wrap list-unstyled pt-3">
+                        <ul class="d-md-flex d-none flex-row justify-content-around flex-wrap list-unstyled">
                             <li class="px-1"><a class="px-4 font-weight-light" href="#">Live</a></li>
                             <li class="px-1"><a class="px-4 font-weight-light" href="#">About</a></li>
                             <li class="px-1"><a class="px-4 font-weight-light" href="#">Log in</a></li>
                             <li class="px-1"><a class="px-4 font-weight-light" href="#">Plans</a></li>
                             <li class="px-1 "><a class="px-4 font-weight-light" href="#">Sign up</a></li>
-                            <li class="px-1"><a class="px-4 font-weight-light" href="#contact">Contact</a></li>
+                            <li class="px-1"><a class="px-4 font-weight-light" href="#">Contact</a></li>
                         </ul>
                         <button class="navbar-toggler pr-4 d-md-none" type="button" data-toggle="dropdown"
                             data-target="#navbarSupportedContent">
@@ -71,68 +69,33 @@
                     </nav>
                 </div>
             </header>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 align-self-center p-5">
-                        <div>
-                            <h1 class="mt-4 text-center text-md-left text-justified ">Own your calm space in your<br>
-                                <span>head</span> and
-                                <span>body</span>
-                            </h1>
-                        </div>
-                        <div>
-                            <p class="mt-4 text-center text-md-left text-justified  pr-5">Get a fit and healthy body at
-                                the comfort of
-                                your
-                                home
-                            </p>
-                        </div>
-                        <div class=" mb-5 pb-5 d-flex justify-content-center ">
-                            <button type="button" class="btn btn-success mt-3 " id="buttonPage"><span class="px-md-5 py-md-5">KNOW
-                                    MORE</span></button>
-                        </div>
-                    </div>
-                    <div class="col col-md-6 mt-5 mt-sm-0 pt-5 text-center d-none d-md-block background-bizard ">
-                        <img src="img/img-desktop.svg" alt="" class="w-100">
-                    </div>
-                    <div class="col col-md-6 mt-5 mt-sm-0 pt-5 text-center d-none d-lg-block image ">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid pl-5 mx-auto">
-                <h2 class="text-center d-md-flex d-none">Contact</h2>
-                <form class="d-md-flex d-none" id="contact">
-                    <fieldset class="w-100">
+            <div class="container">
+                <h1 class="text-center">Contact</h1>
+                <form>
+                    <fieldset>
                         <div class="form-row pl-4 pt-2">
                             <div class="form-group col-12 pr-4">
                                 <label for="Last name">Last name:</label>
-                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0"
-                                    name="Lastname" placeholder="Smith" required>
+                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0" name="Last name" placeholder="Smith" required>
                             </div>
                             <div class="form-group col-12 pr-4">
                                 <label for="First name">First name:</label>
-                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0"
-                                    name="Firstname" placeholder="John" required>
+                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0" name="First name" placeholder="John">
                             </div>
                             <div class="form-group col-12 pr-4">
                                 <label for="Email">Email:</label>
-                                <input type="email" class="form-control border-top-0 border-left-0 border-right-0"
-                                    name="email" placeholder="john@johnsmith.com" required>
+                                <input type="email" class="form-control border-top-0 border-left-0 border-right-0" name="email" placeholder="john@johnsmith.com">
                             </div>
                             <div class="form-group col-12 pr-4">
                                 <label for="Phone">Phone:</label>
-                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0"
-                                    name ="Phone"placeholder="003-003-0004" required>
+                                <input type="text" class="form-control border-top-0 border-left-0 border-right-0" placeholder="003-003-0004">
                             </div>
                             <div class="form-group col-12 pr-4">
                                 <label for="Message"> Message:</label>
-                                <textarea name="message" class="form-control border-top-0 border-left-0 border-right-0"
-                                    cols="20" rows="5"></textarea>
+                                <textarea name="message" class="form-control border-top-0 border-left-0 border-right-0" cols="20" rows="5"></textarea>
                             </div>
                             <div class="form-group pb-5 pt-4 col text-center">
-                                <button class="btn btn-success mt-3 px-4 " name="submit" type="submit"><span class="px-md-5 py-md-5">SUBMIT</span></button>
+                                <button class="btn btn-success mt-3 px-4 " type="submit"><span class="px-md-5 py-md-5">SUBMIT</span></button>
                             </div>
                         </div>
                     </fieldset>
@@ -144,8 +107,6 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
                 crossorigin="anonymous"></script>
-        </div>
-    </div>
 </body>
 
 </html>
